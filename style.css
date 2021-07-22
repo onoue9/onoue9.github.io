@@ -1,0 +1,41 @@
+body {
+    background-color: #00192b;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5px; 
+}
+
+#title {
+    text-align: left;  
+    padding: 20px; 
+}
+
+#ind {
+    text-align: left;
+}
+
+#foto {
+    border-radius: 100%;
+}
+
+#linkedin {
+    text-decoration: none;
+    background-image: url(LinkedIn.jpg);
+    padding: 15px 30px;
+    border-radius: 3%;
+    text-align: left;
+}
+
+#github {
+    text-decoration: none;
+    background-image: url(github.png);
+    padding: 15px 30px;
+    border-radius: 3%;
+    text-align: left;
+}               
