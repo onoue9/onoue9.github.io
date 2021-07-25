@@ -1,41 +1,151 @@
+@font-face {
+    font-family: "Avayx";
+    src: url(Avayx.ttf);
+}
+
+@font-face {
+    font-family: "Orbitron";
+    src: url(Orbitron-Regular.ttf)
+}
+
 body {
-    background-color: #00192b;
-    color: white;
+    color: lawngreen;
     text-align: center;
-    font-family: monospace;
+    font-family: "Orbitron";
+    background-image: url(gif6.gif);
+    background-size: cover;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: lawngreen;
     padding: 5px; 
 }
 
-#title {
-    text-align: left;  
-    padding: 20px; 
+.indice {
+    margin: 50px;
+    margin-bottom: 200px;
+    height: 200px;
+    /* border: 2px solid green; */
+    padding: 20px 0px 20px 0px ;
+    font-size: 20px;    
 }
 
-#ind {
-    text-align: left;
+#desc:hover, #skills:hover, #blog:hover {
+    font-weight: bold;
+    font-size: 18px;
+    color: magenta;
+}
+
+#desc, #skills, #blog {
+    padding: 0px 50px;
+}
+
+.sobre-conteiner {
+    margin: 10px;
+    margin-bottom: 200px;
+    height: 600px; 
+    position: relative;
+    /* border: 2px solid green; */
+}
+
+.sobre-conteiner p {
+    padding: 10px;    
+}
+
+.desc {
+    padding: 10px;
+}
+
+.desc p {
+    font-size: 22px;
+    text-align: center;
+}
+
+#nome {
+    position: absolute;
+    font-size: 15px;
+    padding: 5px;
+    top: 280px;
+    margin-left: 45px;
 }
 
 #foto {
     border-radius: 100%;
+    float: left;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.skills {
+    margin: 10px;
+    margin-bottom: 400px;
+    font-size: 18px;
+    height: 650px;
+    /* border: 2px solid green; */
+}
+
+.shell {
+    position: absolute;
+    padding: 10px;
+    width: 250px;
+    margin-right: 20px;
+    left: 300px;
+    text-align: left;
+}
+
+.html {
+    position: absolute;
+    padding: 10px;
+    width: 250px;
+    margin-right: 20px;
+    left: 800px;
+    text-align: left;
+}
+
+.css {
+    position: absolute;
+    padding: 10px;
+    width: 250px;
+    margin-right: 20px;
+    left: 1300px;
+    text-align: left;
+}
+
+.shell:hover, .html:hover, .css:hover {
+    background-color: magenta;
+}
+
+.lista {
+    font-weight: bold;
+}
+
+#habilidades {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.final {
+    margin: 10px;
+}
+
+.redessociais {
+    margin-left: 20px;
+    padding-right: 20px;
 }
 
 #linkedin {
     text-decoration: none;
     background-image: url(LinkedIn.jpg);
-    padding: 15px 30px;
     border-radius: 3%;
-    text-align: left;
+    padding: 15px 30px;
+    margin-right: 15px;
 }
 
 #github {
     text-decoration: none;
     background-image: url(github.png);
-    padding: 15px 30px;
     border-radius: 3%;
-    text-align: left;
-}               
+    padding: 15px 30px;
+}
