@@ -1,7 +1,11 @@
+body {
+  background-image: url(gotBackground.png);
+}
+
 header {
   display: flex;
   justify-content: center;
-  background-color: darkcyan;
+  color: white;
 }
 
 main {
@@ -9,6 +13,7 @@ main {
   flex-direction: column;
   align-items: center;
   margin: 2px;
+  color: white;
 }
 
 div {
@@ -21,6 +26,7 @@ div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 
 .alternatives-quiz {
@@ -28,6 +34,7 @@ div {
   flex-direction: column;
   align-content: space-between;
   justify-content: space-between;
+  color: white;
 }
 
 .correct-alternative {
