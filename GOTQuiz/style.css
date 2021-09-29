@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+  }
+  
+  div {
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid black;
+  }
+  
+  .picture-screen {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .alternatives-quiz {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+  }
+  
+  .correct-alternative {
+    background-color: green;
+  }
+  
+  .wrong-alternative {
+    background-color: red;
+  }
